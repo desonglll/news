@@ -34,6 +34,14 @@
                     $('#image').next().attr("src", data);
                 }
             })
+            $('#photo').ajaxUploadPrompt({
+                // Properties
+                url: '/news/news_image', // Java address to receive the picture
+                success: function (data) {
+                    $('#photo').prev().val(data);
+                    $('#photo').next().attr("src", data);
+                }
+            })
         }
     </script>
 </head>
@@ -73,15 +81,17 @@
     <div class="row col-sm-9 form-group">
         <label class="col-sm-3 control-label">Photo1</label>
         <div class="col-sm-6">
-            <input type="text" name="image" class="form-control input-sm" value="${bean.image}"/>
+            <input type="hidden" name="image" class="form-control input-sm" value="${bean.image}"/>
             <input id="image" type="button" class="btn btn-success" value="Upload Image"/>
-            <img src="${bean.image}"/>
+            <img style="width: 300px" src="${bean.image}"/>
         </div>
     </div>
     <div class="row col-sm-9 form-group">
         <label class="col-sm-3 control-label">Photo2</label>
         <div class="col-sm-6">
-            <input type="text" name="photo" class="form-control input-sm" value="${bean.photo}"/>
+            <input type="hidden" name="photo" class="form-control input-sm" value="${bean.photo}"/>
+            <input id="photo" type="button" class="btn btn-success" value="Upload Image2"/>
+            <img style="width: 300px" src="${bean.photo}"/>
         </div>
     </div>
     <div class="row col-sm-9 form-group">

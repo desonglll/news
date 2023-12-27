@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1afcf60d-abba-418e-902e-477ea80f1999" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/news/bean/Nav.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/news/dao/NavDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/component/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/component/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/reactweb/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/news_folder/news/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/apple.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/clothing.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/ic_student.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/ic_yiqing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/ic_yunnan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/jeans.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/kiwifruit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/tangyuan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadImages/xuemaojiao.jpg" afterDir="false" />
+    <list default="true" id="1afcf60d-abba-418e-902e-477ea80f1999" name="Changes" comment="Add upload pictures features.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/dbaccess/servlet/BaseHttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/dbaccess/servlet/BaseHttpServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mike/news/bean/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mike/news/bean/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mike/news/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mike/news/dao/NewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mike/news/servlet/NewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mike/news/servlet/NewsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/news_folder/news/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/news_folder/news/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/news_folder/news/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/news_folder/news/add.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +220,7 @@
       <workItem from="1703572007177" duration="362000" />
       <workItem from="1703572414401" duration="10804000" />
       <workItem from="1703635399428" duration="21356000" />
-      <workItem from="1703667268153" duration="514000" />
+      <workItem from="1703667268153" duration="1579000" />
     </task>
     <servers />
   </component>
@@ -266,5 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add upload pictures features." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add upload pictures features." />
   </component>
 </project>
