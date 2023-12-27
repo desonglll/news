@@ -20,6 +20,7 @@ public class UserServlet extends BaseHttpServlet {
         User user = getParameter(req, User.class);
         User result = dao.getUser(user);
         if (result == null) {//Login failed
+            print("输入的数据是" + user);
             req.setAttribute("msg", "用户名或密码错误！");
             return forward("/signin.jsp");
         } else {// Login success
