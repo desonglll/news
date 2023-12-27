@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>首页</title>
+    <title>MainPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
@@ -29,7 +29,7 @@
     //Javascript main function
     window.onload = function () {
         var username = getIntentExtra('username')
-        document.getElementById('welcome').innerHTML = '欢迎光临,<br/>' + username;
+        document.getElementById('welcome').innerHTML = 'Welcome, <br/>' + username;
     }
 </SCRIPT>
 <body>
@@ -44,7 +44,7 @@
     <div class="navbar-container" id="navbar-container">
         <div class="navbar-header pull-left">
             <a href="#" class="navbar-brand"> <small> <i
-                    class="icon-leaf"></i> 运营管理平台
+                    class="icon-leaf"></i> NewsManager
             </small> </a>
             <!-- /.brand -->
         </div>
@@ -57,14 +57,14 @@
                                           class="dropdown-toggle"> <img class="nav-user-photo"
                                                                         src="assets/avatars/user.jpg"
                                                                         alt="Jason's Photo"/> <span
-                        class="user-info"> <small id="welcome">欢迎光临,</small>
+                        class="user-info"> <small id="welcome">Welcome, </small>
 						</span> <i class="icon-caret-down"></i>
                 </a>
                     <ul
                             class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
 
 
-                        <li><a href="/news"> <i class="icon-off"></i> 退出
+                        <li><a href="/news"> <i class="icon-off"></i> Exit
                         </a></li>
                     </ul>
                 </li>
@@ -122,22 +122,22 @@
                 <li class="active"><a
                         href="bootm.html" target="mainframe">
                     <i class="icon-dashboard"></i> <span class="menu-text">
-								控制台 </span>
+								Control Center</span>
                 </a></li>
 
                 <li class="active open"><a href="javascript:void(0)" target="mainframe"
                                            class="dropdown-toggle"> <i class="icon-desktop"></i> <span
-                        class="menu-text"> 系统管理 </span> <b class="arrow icon-angle-down"></b>
+                        class="menu-text"> System Management</span> <b class="arrow icon-angle-down"></b>
                 </a>
 
                     <ul class="submenu" style="display: block">
 
                         <!--用户点击该链接可以跳转到新闻管理页面-->
                         <li><a href="/news/news_list" target="mainframe"> <i
-                                class="icon-double-angle-right"></i> 新闻管理
+                                class="icon-double-angle-right"></i> News Management
                         </a></li>
                         <li><a href="video_list.action" target="mainframe"> <i
-                                class="icon-double-angle-right"></i> 背景视频
+                                class="icon-double-angle-right"></i> Background Videos
                         </a></li>
                     </ul>
                 </li>

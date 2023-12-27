@@ -1,11 +1,46 @@
 package com.mike.news.bean;
 
+import com.common.dbaccess.annotation.NotNull;
+import com.common.dbaccess.annotation.TableBean;
+
 import java.util.Date;
 
 public class News {
+    public String datatime;
+
+    public String getDatatime() {
+        return datatime;
+    }
+
+    @TableBean(ignore = true)// Database will ignore this field.
+    public void setDatatime(String datatime) {
+        this.datatime = datatime;
+    }
+
+    public String nav;
+    public Integer type;
+
+    public String getNav() {
+        return nav;
+    }
+
+    public void setNav(String nav) {
+        this.nav = nav;
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
     public Integer id;
+    @NotNull
     public String title;
-    public String content;
+    @NotNull
+    public String content;//not empty while add or change data
     public Date ctime;
     public Integer nid;
     public String image;
