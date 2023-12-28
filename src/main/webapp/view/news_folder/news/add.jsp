@@ -83,7 +83,7 @@
         <div class="col-sm-6">
             <input type="hidden" name="image" class="form-control input-sm" value="${bean.image}"/>
             <input id="image" type="button" class="btn btn-success" value="Upload Image"/>
-            <img style="width: 300px" src="${bean.image}"/>
+            <img style="width: 300px;display: block" src="${bean.image}"/>
         </div>
     </div>
     <div class="row col-sm-9 form-group">
@@ -105,7 +105,11 @@
         <div class="col-sm-6">
             <select name="nid" class="form-control input-sm">
                 <c:forEach items="${navList}" var="item">
-                    <option value=${item.id}>${item.nav}</option>
+
+                    <%--主键等于外键--%>
+                    <option
+                            <c:if test="${item.id==bean.nid}">selected</c:if>
+                            value=${item.id}>${item.nav}</option>
                     <%--display item.nav, but submit item.id--%>
                 </c:forEach>
             </select>
